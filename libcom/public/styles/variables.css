@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet&family=Oswald&family=Yellowtail&display=swap");
+
+:root {
+    --main-bg-col: #67646b;
+    --second-bg-col: #8d847e;
+    --third-bg-col: #aba8af;
+    --fourth-bg-col: #939097;
+    --main-font-col: #2d3945;
+    --second-font-col: #312b2a;
+    --product-bg: #c0a286;
+    --border-col: #6d918d;
+
+    --font-h: "Oswald", sans-serif;
+    --font-basic: "Hahmlet", serif;
+    --font-cute: "Yellowtail", cursive;
+}

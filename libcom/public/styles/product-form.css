@@ -1,0 +1,56 @@
+@import url(variables.css);
+
+#form-admin {
+    background-color: var(--second-bg-col);
+    border-radius: 5px;
+}
+
+#h2-admin {
+    margin: 0%;
+    text-align: center;
+}
+
+form {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.form-sect {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-admin {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.form-sect button {
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: var(--third-bg-col);
+    width: 200px;
+}
+
+button:hover {
+    background-color: #77747a;
+}
+
+input:focus {
+    border-color: var(--border-col);
+}
+
+p {
+    margin: 0;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+@media all and (max-width: 1200px) {
+}

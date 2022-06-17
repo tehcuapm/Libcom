@@ -1,0 +1,46 @@
+@import "/public/styles/global.css";
+
+.product-photo {
+    width: 100px;
+}
+
+.product-infos {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.table-style {
+    border-collapse: collapse;
+    width: 90%;
+    height: 10%;
+
+}
+
+.table-style td, .table-style th {
+    border: 1px solid var(--second-font-col);
+    padding: 8px;
+}
+
+.table-style tr:nth-child(even) {
+    background-color: var(--second-bg-col);
+}
+
+.table-style tr:nth-child(odd) {
+    background-color: var(--third-bg-col);
+}
+
+.table-style tr:hover {
+    background-color: #ddd;
+}
+
+.table-style th {
+    background-color: burlywood;
+    color: white;
+    text-align: left;
+}
+
+.all-buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

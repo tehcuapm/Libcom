@@ -1,0 +1,44 @@
+@import url(variables.css);
+
+footer {
+    width: 100%;
+    background-color: var(--second-bg-col);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+}
+
+#contact {
+    width: 25%;
+    height: 100%;
+}
+
+#contact > p {
+    font-size: 0.75rem;
+    margin: 0;
+    margin-right: 10px;
+    text-align: right;
+}
+
+#reseaux > h5, #contact > h5 {
+    margin: 0;
+    margin-left: 10px;
+}
+
+#contact > h5 {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.logo_f {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+#logo_face {
+    height: 35px;
+    width: 35px;
+}

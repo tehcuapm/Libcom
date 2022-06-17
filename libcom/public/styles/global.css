@@ -1,0 +1,152 @@
+@import "variables.css";
+@import "form.css";
+
+html,
+body {
+   margin: 0;
+}
+html{
+    min-height: 100%;
+    min-width: 100%;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--main-bg-col);
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    /*min-height: 100vh;*/
+    gap: 10px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-h);
+    color: var(--third-bg-col);
+}
+
+p,
+a,
+label,
+th,
+tr {
+    font-family: var(--font-basic);
+    color: var(--main-font-col);
+}
+
+p {
+    margin: 0;
+}
+
+a {
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+}
+
+.hover-line {
+    width: 10%;
+    border-bottom: #4a4a5f 7px solid;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 1s;
+}
+
+.hover-line-activator:hover ~ .hover-line {
+    width: 100%;
+}
+
+button,
+input,
+select,
+option {
+    outline: none;
+    border: 2px solid var(--font-h);
+    border-radius: 3px;
+    background-color: var(--third-bg-col);
+    width: 50px;
+    height: 30px;
+    font-family: var(--font-basic);
+}
+
+#content {
+    display: flex;
+    justify-content: center;
+    min-height: 100%;
+    /*height: 100%;*/
+    width: 100%;
+}
+
+.popup {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.popup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: var(--second-bg-col);
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 10px;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.popup-content button {
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.popup-header {
+    display: flex;
+    border-radius: 10px;
+
+    justify-content: center;
+    background-color: var(--main-bg-col)
+}
+
+.popup-body {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.message {
+    width: 100%;
+    background-color: var(--second-bg-col);
+    display: flex;
+    justify-content: center;
+}
+
+.message-content {
+    font-family: var(--font-basic);
+    font-weight: bold;
+}

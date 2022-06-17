@@ -1,0 +1,45 @@
+@import "/public/styles/global.css";
+
+#buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-basic);
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+
+#option {
+    display: flex;
+    flex-direction: column;
+}
+
+@media all and (max-width: 500px) {
+    .form-sect {
+        flex-direction: column;
+    }
+
+    .form-sect input {
+        width: 100%;
+    }
+}

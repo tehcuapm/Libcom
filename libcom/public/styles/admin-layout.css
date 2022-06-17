@@ -1,0 +1,21 @@
+#admin-ajax {
+    display: flex;
+    justify-content: center;
+    background-color: var(--fourth-bg-col);
+    height: 7%;
+    width: 100%;
+}
+
+#info-div {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+#info-div p {
+    width: 100%;
+}
+#admin-users {
+    all: initial;
+    margin-left: auto;
+}

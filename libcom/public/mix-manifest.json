@@ -1,0 +1,13 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/js/place-autocomplete.js": "/js/place-autocomplete.js",
+    "/js/panierajax.js": "/js/panierajax.js",
+    "/js/panierview.js": "/js/panierview.js",
+    "/js/message.js": "/js/message.js",
+    "/js/dom_helper.js": "/js/dom_helper.js",
+    "/js/adminajax.js": "/js/adminajax.js",
+    "/js/header.js": "/js/header.js",
+    "/js/catalog.js": "/js/catalog.js",
+    "/js/product.js": "/js/product.js",
+    "/js/admin_users.js": "/js/admin_users.js"
+}

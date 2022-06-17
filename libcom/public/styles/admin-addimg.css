@@ -1,0 +1,23 @@
+@import url(variables.css);
+
+#content {
+    gap: 10px;
+}
+
+#addimage,
+#delimage {
+    width: 50%;
+    background-color: var(--second-bg-col);
+    display: flex;
+    flex-direction: column;
+}
+
+#button-addimage,
+#button-delimage {
+    width: 80px;
+}
+
+#input-addimage,
+#select-delimage {
+    width: 275px;
+}
